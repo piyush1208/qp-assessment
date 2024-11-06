@@ -18,6 +18,7 @@ import com.example.demo.service.GroceryService;
 @RestController
 @RequestMapping("/api/v1/admin")
 public class AdminController {
+	
 	@Autowired
 	private GroceryService groceryService;
 
